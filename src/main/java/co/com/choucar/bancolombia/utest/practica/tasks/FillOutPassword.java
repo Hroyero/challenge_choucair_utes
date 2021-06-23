@@ -30,7 +30,6 @@ public class FillOutPassword implements Task {
                          Enter.theValue(utestData.get(0).getStrConfirmPassword()).into(INPUT_CONFIRM_PASSWORD),
                          Click.on(CHECK_STAY_INFORME),
                          Click.on(CHECK_ACCEPT_THE_TERMS_OF_USE),
-                         Click.on(CHECK_ACCEPT_THE_SECURITY_POLICIES),
-                         Click.on(BUTTON_COMPLETE_SETUP));
+                         Click.on(CHECK_ACCEPT_THE_SECURITY_POLICIES));
     }
 }

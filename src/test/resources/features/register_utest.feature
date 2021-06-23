@@ -14,5 +14,5 @@ Feature: uTest
       | <strRegistered>  |
 
     Examples:
-      | strFirstName   | strLastName | strEmailAddress        |  strMonth   | strDay    | strYear     |  strCity | strPostal |   strPassword   | strConfirmPassword   | strRegistered                                                          |
-      | Hollmans       | Royero      | vefeilfqh823@greenkic.com |  number:7   | number:22 | number:1996 |  Bogota  | 1234567    |  #6Bla#Ta#L8S   | #6Bla#Ta#L8S         | Welcome to the world's largest community of freelance software testers!|
+      | strFirstName   | strLastName | strEmailAddress           |  strMonth   | strDay    | strYear     |  strCity | strPostal  |   strPassword   | strConfirmPassword   | strRegistered     |
+      | Hollmans       | Royero      | vefeilfqh823@greenkic.com |  number:7   | number:22 | number:1996 |  Bogota  | 1234567    |  #6Bla#Ta#L8S   | #6Bla#Ta#L8S         | Complete Setup    |
