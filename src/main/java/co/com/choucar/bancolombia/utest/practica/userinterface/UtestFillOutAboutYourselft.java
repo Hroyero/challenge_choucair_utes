@@ -3,7 +3,7 @@ package co.com.choucar.bancolombia.utest.practica.userinterface;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
-public class UtestFillOutTellUs {
+public class UtestFillOutAboutYourselft {
     public static final Target INPUT_FIRST_NAME = Target.the("Where we write the first name").located(By.cssSelector("#firstName"));
     public static final Target INPUT_LAST_NAME = Target.the("Where we write the last name").located(By.cssSelector("#lastName"));
     public static final Target INPUT_EMAIL = Target.the("Where we write the email address").located(By.cssSelector("#email"));

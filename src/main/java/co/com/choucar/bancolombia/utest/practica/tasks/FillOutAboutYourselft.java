@@ -7,7 +7,7 @@ import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.SelectFromOptions;
-import static co.com.choucar.bancolombia.utest.practica.userinterface.UtestFillOutTellUs.*;
+import static co.com.choucar.bancolombia.utest.practica.userinterface.UtestFillOutAboutYourselft.*;
 import java.util.List;
 
 public class FillOutAboutYourselft implements Task {

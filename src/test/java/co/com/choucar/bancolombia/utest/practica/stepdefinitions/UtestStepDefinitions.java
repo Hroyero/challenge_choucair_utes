@@ -31,7 +31,7 @@ public class UtestStepDefinitions {
     @When("^he search for the option to registe and fill the registration form$")
     public void he_search_for_the_option_to_registe_and_fill_the_registration_form(List<UtestData> utestData)throws Exception{
         theActorInTheSpotlight().attemptsTo(FillOutAboutYourselft.onThePage(utestData),
-                                            FillOutAddres.onThePage(utestData),
+                                            FillOutAddress.onThePage(utestData),
                                             FillOutDevices.onThePage(),
                                             FillOutPassword.onThePage(utestData)
                                             );

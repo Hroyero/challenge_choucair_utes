@@ -3,7 +3,7 @@ package co.com.choucar.bancolombia.utest.practica.userinterface;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
-public class UtestFillOutAdd {
+public class UtestFillOutAddress {
 
     public static final Target INPUT_CITY = Target.the("where we select the city").located(By.xpath("//input[@id='city']"));
     public static final Target INPUT_POSTAL = Target.the("where we write the zip code").located(By.xpath("//input[@id='zip']"));
